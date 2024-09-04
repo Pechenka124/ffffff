@@ -3,7 +3,7 @@ import styles from './Statistics.module.scss'; // Проверьте путь к
 import { dataOne, dataTwo } from './data/data'; // Проверьте путь к данным
 import likes from "../../../assets/like.png";
 import reiting from "../../../assets/reiting.png";
-import useState from'react'
+import {useState} from'react'
 const Statistics: React.FC = () => {
     const [isActive,setIsActive] = useState<boolean>('false')
     function click(){
