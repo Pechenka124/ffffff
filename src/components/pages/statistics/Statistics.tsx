@@ -12,10 +12,11 @@ const Statistics: React.FC = () => {
   return (
     <>
       <div className={styles.diageams}>
-        <button onClick={click} className={styles.btn}>Подробнее</button>
+        
         <img className={styles.diagram} src={likes} />
         <img className={styles.diagram} src={reiting} />
       </div>
+        <button onClick={click} className={styles.btn}>Подробнее</button>
       <div className={isActive ? styles.mainContentTrue:styles.mainContentFalse}>
         <h2 className={styles.header}>Достопримечательности</h2>
         <div className={styles.columns}>
