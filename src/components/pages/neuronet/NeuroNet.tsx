@@ -65,7 +65,7 @@ const NeuroNet: React.FC = () => {
             <div className={styles.window} ref={windowRef}>
                 {messages && messages.length > 0 ? null : (
                     <div className={styles.text}>
-                        Напишите отзыв о чем либо для модели, и она ответит вам, позитивный он или негативный
+                        Напишите отзыв о чем либо для модели, и она ответит вам, позитивный он или негативный (Средняя точность 84.8%)
                     </div>
                 )}
 
