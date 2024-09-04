@@ -3,11 +3,16 @@ import styles from './Statistics.module.scss'; // Проверьте путь к
 import { dataOne, dataTwo } from './data/data'; // Проверьте путь к данным
 import likes from "../../../assets/like.png";
 import reiting from "../../../assets/reiting.png";
-
+import useState from'react'
 const Statistics: React.FC = () => {
+    const [isActive,setIsActive] = useState<Boolean>('false')
+    function click(){
+        setIsActive(!isActive)
+    }
   return (
     <>
-      <div className={styles.diageams}>
+      <div className={isActive? styles.diageamsTrue : styles.diageamsFalse}>
+        <button onClick={click} className={styles.btn}>Подробнее</button>
         <img className={styles.diagram} src={likes} />
         <img className={styles.diagram} src={reiting} />
       </div>
