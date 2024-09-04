@@ -16,7 +16,7 @@ const Statistics: React.FC = () => {
         <img className={styles.diagram} src={likes} />
         <img className={styles.diagram} src={reiting} />
       </div>
-      <div className={isActive ? styles.mainContentFalse:styles.mainContentTrue}>
+      <div className={isActive ? styles.mainContentTrue:styles.mainContentFalse}>
         <h2 className={styles.header}>Достопримечательности</h2>
         <div className={styles.columns}>
           {
