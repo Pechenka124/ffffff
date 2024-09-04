@@ -7,8 +7,8 @@ const Statistics: React.FC = () => {
   return (
     <>
             <div className={styles.diageams}>
-            <img src={likes}/>
-            <img src={raiting}/>
+            <img className={styles.diagram} src={likes}/>
+            <img className={styles.diagram} src={raiting}/>
             </div>
             <div className={styles.mainContent}>
             
