@@ -9,7 +9,7 @@ const Statistics: React.FC = () => {
     <>
       <div className={styles.diageams}>
         <img className={styles.diagram} src={likes} />
-        <img className={styles.diagram} src={raiting} />
+        <img className={styles.diagram} src={reiting} />
       </div>
       <div className={styles.mainContent}>
         <h2 className={styles.header}>Достопримечательности</h2>
