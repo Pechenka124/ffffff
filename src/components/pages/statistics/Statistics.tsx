@@ -1,4 +1,4 @@
-mport React from 'react';
+import React from 'react';
 import styles from './Statistics.module.scss'; // Проверьте путь к стилям
 import { dataOne, dataTwo } from './data/data'; // Проверьте путь к данным
 import likes from "../../../../assets/like.png";
