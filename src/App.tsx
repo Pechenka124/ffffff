@@ -5,7 +5,7 @@ import Map from "./components/pages/map/Map"
 import NeuroNet from "./components/pages/neuronet/NeuroNet"
 import Statistics from "./components/pages/statistics/Statistics"
 function App() {
- 
+ /*простите за код, торопился сильно очень!!!*/
 
   return (
     <>
