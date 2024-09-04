@@ -38,3 +38,12 @@
     width:1080px;
     height:760px;
 }
+.btn{
+    background-color:transparent;
+    cursor:pointer;
+    font-size:28px;
+    transition: all 0.2s;
+    &:hover{
+        opacity:0.8
+    }
+}
