@@ -39,10 +39,13 @@
     height:760px;
 }
 .btn{
+    border: none;
     background-color:transparent;
     cursor:pointer;
-    font-size:28px;
+    font-size:34px;
     transition: all 0.2s;
+    margin-top:10px;
+    color:white
     &:hover{
         opacity:0.8
     }
