@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './Statistics.module.scss'; // Проверьте путь к стилям
 import { dataOne, dataTwo } from './data/data.ts'; // Проверьте путь к данным
-
+import likes from "../../../../assets/like.png"
+import reiting from "../../../../assets/reiting.png"
 const Statistics: React.FC = () => {
   return (
-    <div>
+    <div className={styles.diageams}>
+      <img src={likes}/>
+      <img src={raiting}/>
+    </div>
+    <div className={styles.mainContent>
+      <div>
       <h2 className={styles.header}>Достопримечательности</h2>
       <div className={styles.columns}>
         {
@@ -22,6 +28,8 @@ const Statistics: React.FC = () => {
           ))
         }
       </div>
+    </div>
+    
         <h2 className={styles.header}>Общий анализ отзывов</h2>
        <h2 className={styles.text}>Многие посетители отмечают, что цены в некоторых местах неоправданно высоки, особенно если сравнивать их с качеством предоставляемых услуг. Однако есть и те, кто считает, что стоимость соответствует уровню сервиса.
 Большинство мест рассчитаны на молодую аудиторию, поэтому людям старшего возраста может быть некомфортно находиться там. Но есть и исключения — некоторые заведения успешно привлекают посетителей всех возрастов благодаря уютной атмосфере и разнообразному меню.
