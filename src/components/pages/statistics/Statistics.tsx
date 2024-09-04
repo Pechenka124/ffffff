@@ -5,7 +5,7 @@ import likes from "../../../assets/like.png";
 import reiting from "../../../assets/reiting.png";
 import {useState} from'react'
 const Statistics: React.FC = () => {
-    const [isActive,setIsActive] = useState<Boolean>('false')
+    const [isActive,setIsActive] = useState<boolean>(false)
     function click(){
         setIsActive(!isActive)
     }
