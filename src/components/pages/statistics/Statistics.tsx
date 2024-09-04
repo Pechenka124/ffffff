@@ -5,12 +5,13 @@ import likes from "../../../../assets/like.png"
 import reiting from "../../../../assets/reiting.png"
 const Statistics: React.FC = () => {
   return (
+    <>
     <div className={styles.diageams}>
       <img src={likes}/>
       <img src={raiting}/>
     </div>
     <div className={styles.mainContent>
-      <div>
+      
       <h2 className={styles.header}>Достопримечательности</h2>
       <div className={styles.columns}>
         {
@@ -40,5 +41,5 @@ const Statistics: React.FC = () => {
    
   );
 }
-
+  </>
 export default Statistics;
