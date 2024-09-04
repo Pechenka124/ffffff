@@ -1,4 +1,4 @@
-import React from 'react';
+mport React from 'react';
 import styles from './Statistics.module.scss'; // Проверьте путь к стилям
 import { dataOne, dataTwo } from './data/data'; // Проверьте путь к данным
 import likes from "../../../../assets/like.png";
@@ -9,7 +9,7 @@ const Statistics: React.FC = () => {
     <>
       <div className={styles.diageams}>
         <img className={styles.diagram} src={likes} />
-        <img className={styles.diagram} src={reiting} />
+        <img className={styles.diagram} src={raiting} />
       </div>
       <div className={styles.mainContent}>
         <h2 className={styles.header}>Достопримечательности</h2>
@@ -37,8 +37,8 @@ const Statistics: React.FC = () => {
         Некоторые посетители жалуются на то, что в некоторых местах не уделяют должного внимания уборке. Это может создавать неприятное впечатление у гостей и снижать общую оценку заведения.
         В целом, отзывы о заведениях могут быть разными, но важно помнить, что каждый человек имеет своё мнение и предпочтения. Поэтому перед посещением какого-либо места лучше всего ознакомиться с отзывами других людей и составить собственное мнение.
       </h2>
-    );
-  </>
+    </>
+  );
 };
 
 export default Statistics;
