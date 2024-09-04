@@ -11,6 +11,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+.mainContentFalse{
+    display:none;
+}
+.mainContentTrue{
+    dispay:block;
+}
 .columns > div {
     font-size: 30px; 
 }
