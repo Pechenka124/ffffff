@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Statistics.module.scss'; // Проверьте путь к стилям
-import { dataOne, dataTwo } from './data/data'; // Проверьте путь к данным
+import styles from './Statistics.module.scss'; 
+import { dataOne, dataTwo } from './data/data'; 
 import likes from "../../../assets/like.png";
 import reiting from "../../../assets/reiting.png";
 import {useState} from'react'
