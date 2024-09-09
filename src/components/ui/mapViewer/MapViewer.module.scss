@@ -10,23 +10,23 @@
 }
 
 .mapWrapper {
-    position: absolute; /* Абсолютное позиционирование карты внутри окна */
+    position: absolute; 
     top: 0;
     left: 0;
-    cursor: grab; /* Курсор для перемещения карты */
+    cursor: grab; 
 }
 
 .mapImage {
-    display: block; /* Убираем пробелы вокруг изображения */
+    display: block; 
 }
 
 .marker {
-    position: absolute; /* Абсолютное позиционирование меток */
-    background: red; /* Цвет фона метки */
-    color: white; /* Цвет текста метки */
-    border-radius: 50%; /* Округлая форма метки */
-    padding: 5px; /* Отступ вокруг текста метки */
-    font-size: 12px; /* Размер шрифта текста метки */
-    transform: translate(-50%, -50%); /* Центрирование метки по координатам */
-    cursor: pointer; /* Курсор для метки */
+    position: absolute; 
+    background: red; 
+    color: white; 
+    border-radius: 50%; 
+    padding: 5px; 
+    font-size: 12px; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
 }
