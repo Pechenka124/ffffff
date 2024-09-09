@@ -73,14 +73,14 @@ const MapViewer: React.FC<MapViewerProps> = ({ mapSrc }) => {
                 className={styles.mapWrapper}
                 ref={mapWrapperRef}
                 onMouseDown={handleMouseDown}
-                style={{ position: 'absolute', cursor: 'grab' }} // Убедитесь, что у вас есть стиль для позиционирования
+                style={{ position: 'absolute', cursor: 'grab' }} 
             >
                 <img
                     src={mapSrc}
                     alt="Map"
                     className={styles.mapImage}
-                    draggable={false} // Отключаем перетаскивание браузером
-                    onDragStart={handleDragStart} // Отключаем перетаскивание
+                    draggable={false} 
+                    onDragStart={handleDragStart} 
                 />
             </div>
         </div>
